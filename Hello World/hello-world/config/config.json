@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/helloWorldTsOnly/HelloWorldTsOnlyWebPart.js",
+      "manifest": "./src/webparts/helloWorldTsOnly/HelloWorldTsOnlyWebPart.manifest.json",
+      "outputPath": "./dist/hello-world-ts-only.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "helloWorldTsOnlyStrings": "webparts/helloWorldTsOnly/loc/{locale}.js"
+  }
+}
