@@ -1,0 +1,51 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.9",
+    "packageName": "todoList",
+    "id": "80c3dacf-3f6d-4351-8efe-dc7c4d6ffa1a",
+    "version": "1.0.0.0",
+    "developer": {
+        "name": "SPFx + Teams Dev",
+        "websiteUrl": "https://products.office.com/en-us/sharepoint/collaboration",
+        "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+        "termsOfUseUrl": "https://www.microsoft.com/en-us/servicesagreement"
+    },
+    "name": {
+        "short": "todoList"
+    },
+    "description": {
+        "short": "todoList",
+        "full": "todoList"
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "accentColor": "#004578",
+    "configurableTabs": [
+        {
+            "configurationUrl": "https://asisho365dev.sharepoint.com/sites/TeamsDevApp/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=https://asisho365dev.sharepoint.com/sites/TeamsDevApp/_layouts/15/teamshostedapp.aspx%3Fteams%26componentId=80c3dacf-3f6d-4351-8efe-dc7c4d6ffa1a%26forceLocale=en-us",
+            "canUpdateConfiguration": true,
+            "scopes": [
+                "team"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "*.login.microsoftonline.com",
+        "*.sharepoint.com",
+        "*.sharepoint-df.com",
+        "spoppe-a.akamaihd.net",
+        "spoprod-a.akamaihd.net",
+        "resourceseng.blob.core.windows.net",
+        "msft.spoppe.com"
+    ],
+    "webApplicationInfo": {
+        "resource": "https://asisho365dev.sharepoint.com/sites/TeamsDevApp",
+        "id": "00000003-0000-0ff1-ce00-000000000000"
+    }
+}
